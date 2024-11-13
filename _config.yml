@@ -10,7 +10,7 @@ theme_color:           rgb(25,55,71)
 
 metadata: 'medmanfragments'
 
-url: 'kam535.github.io'
+url: 'https://kam535.github.io'
 baseurl: '/fantastic-train'
 
 google_fonts:          false
