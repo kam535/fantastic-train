@@ -1,70 +1,31 @@
 lang:                  en
-title:                 'Kiran's Experimental Sitie'
+title:                 "Kiran's Experimental Site"
+
+description: 
+author: kam535
 
 accent_image:          /assets/img/freepalestine.jpg
 accent_color:          rgb(79,177,186)
 theme_color:           rgb(25,55,71)
 
+metadata: 'medmanfragments'
+
+url: kam535.github.io/
+baseurl: fantastic-train/
+
 google_fonts:          false
-
-hydejack:
-  post_addons:         [about, newsletter, related, random, comments]
-  project_addons:      [about, newsletter, other, comments]
-
-  no_mark_external:    false
-  no_push_state:       false
-  no_drawer:           false
-  no_navbar:           false
-  no_search:           false
-  no_inline_css:       false
-  no_page_style:       false
-  no_break_layout:     true
-  no_toc:              false
-  no_third_column:     false
-  no_large_headings:   false
-  no_structured_data:  false
-  no_theme_color:      false
-  no_breadcrumbs:      false
-
-  use_lsi:             true
-  cookies_banner:      true
-  advertise:           true
-  hide_dates:          false
-  hide_last_modified:  false
-
-  dark_mode:
-    always:            false
-    dynamic:           true
-    sunrise:           6
-    sunset:            18
-    icon:              true
-
-  offline:
-    enabled:           false
-    cache_version:     1
-    precache_assets:
-      - /assets/img/swipe.svg
-
-optional_front_matter:
-  remove_originals:    true
-
-readme_index:
-  remove_originals:    true
-  with_frontmatter:    true
-
-relative_links:
-  collections:         true
-
-titles_from_headings:
-  strip_title:         true
-  collections:         true
-
-compress_html:
-  comments:            ["<!-- ", " -->"]
-  clippings:           all
-  endings:             all
-  ignore:
-    envs:              [development]
+remote_theme: hydecorp/hydejack@v9.2.1
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-include-cache
+gems:
+    - jekyll-asciidoc
+    - jekyll-gist
+    - jekyll-paginate
+    
+exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md]
+# compress CSS output
 
 sass:
   style:               compressed
