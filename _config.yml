@@ -10,8 +10,8 @@ theme_color:           rgb(25,55,71)
 
 metadata: 'medmanfragments'
 
-url: kam535.github.io
-baseurl: fantastic-train
+url: 'kam535.github.io'
+baseurl: '/fantastic-train'
 
 google_fonts:          false
 remote_theme: hydecorp/hydejack@v9.2.1
